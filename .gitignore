@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# OS and editor files
+.DS_Store
+.ipynb_checkpoints/
+
+# Local Kaggle data
+playground-series-s6e11/
+
+# Generated notebook and model artifacts
+notebooks/*_artifacts/
+notebooks/catboost_info/
+notebooks/submission*.csv
